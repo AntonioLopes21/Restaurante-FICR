@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #f2cc929f;
+}
+
+main {
+    flex: 1;
+}
+
+
+/*SEÇÃO NAVBAR*/
+
+nav {
+    z-index: 2;
+    top: -0.5rem;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    font-size: 1rem;
+    gap: 50%;
+    background-color: rgba(52, 52, 52, 0.615);
+    width: 100%;
+    color: #f5f5f5;
+    background-image: url("img/plano-fundo.webp");
+
+    p {
+        padding-left: 7px;
+    }
+}
+
+.itens-nav-esquerda img {
+    width: 100px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.itens-nav-esquerda {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+a {
+    transition: 1s;
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+.itens-nav-direita {
+    
+
+    display: flex;
+    gap: 40px;
+    font-size: 10px;
+    top: 10%;
+    position: relative;
+    right: 19%;
+    transition: 1s;
+    h1 {
+        top: 24%;
+        position: relative;
+        cursor: pointer;
+    }
+    
+}
+
+#home {
+    font-size: 0.5rem;
+
+    h1 {
+        text-align: center;
+        color: black;
+    }
+
+    h4 {
+        color: black;
+    }
+}
+
+.texto-home, .texto-sobre, .texto-noticias {
+    h1 {
+        color: #f5f5f5;
+    }
+}
+
+.texto-home:hover, .texto-sobre:hover, .texto-noticias:hover {
+    h1 {
+        color: #f5f5f554;
+    }}
+
+
+    /*CARDÁPIO*/
+
+    /*BOTÃO COMPRAR*/
+.btn-comprar {
+    width: 50%;
+    height: 15%;
+    background-color: red;
+    color: white;
+    border-radius: 2rem;
+    transition: 1s;
+}
+
+.btn-comprar:hover {
+    background-color: rgb(148, 17, 17);
+}
+
+.comidas {
+    position: relative;
+    top: 4.5rem;
+    right: 0%;
+    color: blue;
+}
+
+.bebidas {
+    position: relative;
+    bottom: 20rem;
+    left: 8%;
+    color: blue;
+}
+
+.my-4 {
+    position: relative;
+    top: 10rem;
+    color: red;
+
+    p {
+        color: black;
+    }
+}
+
+  
+.titulo-div-cardapio {
+    color: red;
+    font-size: 3rem;
+    position: relative;
+    left: 7%;
+    bottom: 79rem;
+}
+
+.cardapio-carousel {
+    max-width: 80%; 
+    position: relative;
+    top: 16rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 90%; 
+    height: .5rem; 
+    margin: 0 auto; 
+}
+
+.cards-cardapio {
+    background-color: #f2cc929f;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.tres-cards, .tres-cards2 {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    padding-top: 5px;
+}
+
+/*INFORMAÇÕES SOBRE*/
+.informacoes-site {
+    position: relative;
+    top: 80rem;
+}
+
+.informacoes-site p {
+    position: relative;
+    right: 9%;
+}
+
+.comidas2 {
+
+    position: relative;
+    top: 22.5rem;
+    right: 0%;
+    color: blue;
+    left: 5%;
+  
+}
+
+.divisores5 {
+    font-size: 3rem;
+    width: 100%;
+    position: relative;
+    right: 20%;
+    top: 106rem;
+} 
+
+.divisores4 {
+    font-size: 3rem;
+    width: 100%;
+    position: relative;
+    right: 20%;
+    top: 0rem;
+} 
+
+.divisores3 {
+    font-size: 3rem;
+    width: 100%;
+    position: relative;
+    right: 20%;
+    top: 20rem;
+} 
+
+.divisores2 {
+    font-size: 3rem;
+    width: 100%;
+    position: relative;
+    right: 20%;
+    bottom: 24rem;
+}
+
+.divisores {
+    font-size: 3rem;
+    width: 100%;
+    position: relative;
+    right: 20%;
+}
+
+.divisores1 {
+    font-size: 3rem;
+    width: 100%;
+    position: relative;
+    right: 20%;
+}
+
+/*SOBRE*/
+.container-info {
+    position: relative;
+    top: 25rem;
+}
+
+
+#noticias-food h3,h5{
+    position: relative;
+    top:100rem;
+    left: 20%;
+}
+
+.noticia2 {
+    position: relative;
+    top: 105rem;
+    padding-left: 10px;
+}
+
+.noticia2 h3{
+    position: relative;
+    bottom: 10rem;
+    left: 20%;
+}
+
+.noticia2 h5 {
+    position: relative;
+    bottom: 50rem;
+}
+
+
+/*SECTION ENTREVISTADOR1*/
+.entrevistador1{
+    position: relative;
+    top: 110rem;
+    padding-left: 15px;
+
+    h3, h5 {
+        position: relative;
+        
+    }
+}
+
+
+/*SECTION DEV*/
+.secao-devs {
+    max-width: 100%;
+    overflow: hidden;
+
+}
+
+/*SEÇÃO FOOTER*/
+.texto-noticias {
+    position: relative;
+    right: 2%;
+}
+
+#conteudo-footer {
+    display: flex;
+    gap: 80px;
+    position: relative;
+    right: 1%;
+}
+
+.sobre {
+    padding-top: 1%;
+}
+
+.contatos {
+    padding-top: 1%;
+}
+
+.conheca-nossa-historia {
+    padding-top: 1%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn-acesso-historia {
+    width: 10rem;
+    height: 20%;
+    font-size: 1rem;
+    transition: 1s;
+    background-color: green;
+    color: white;
+}
+
+.btn-acesso-historia:hover {
+    background-color: rgb(4, 87, 4);
+}
+
+.cadastre-se {
+    padding-top: 1%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    transition: 1s;
+    
+}
+
+.cadastre-se {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+
+    h3 {
+        font-size: 1.4rem;
+    }
+}
+
+.cadastre-se input{
+    width: 40%;
+    border-radius: 2%;
+    border: 2px solid gray;
+}
+
+.btn-dev {
+    border-radius: 1rem;
+    width: 30%;
+    height: 20%;
+    transition: 1s;
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+}
+
+.btn-dev:hover {
+    background-color: #f5f5f5;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* FOOTER */
+footer {
+
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 110rem;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    gap: 10%;
+    white-space: nowrap;
+    font-size: 50%;
+    color: #f5f5f5;
+    background-image: url("img/background-site.webp");
+}
+
+footer p {
+    font-size: 1rem;
+}

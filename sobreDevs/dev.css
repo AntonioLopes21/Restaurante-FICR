@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a2e;
+    color: #fff;
+}
+
+.estrutura {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card-dev {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.card {
+    background-color: #2b2b3d;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.3s;
+    box-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff, 0 0 30px #ff00ff;
+}
+
+.card:hover {
+    background-color: #212131;
+    box-shadow: 0 0 15px #ff00ff, 0 0 25px #00ffff, 0 0 35px #ff00ff;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ff00ff;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #00ffff;
+}
+
+.resumo {
+    max-width: 478px;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: left;
+    color: #ff00ff;
+    border-left: 2px solid #00ffff;
+    border-right: 2px solid #ff00ff;
+    padding: 10px;
+    box-shadow: 0 0 15px #ff00ff, 0 0 25px #00ffff;
+}
+
+.btn-voltar {
+    width: 30%;
+    height: 5rem;
+    text-decoration: none;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    transition: 1s;
+    color: white;
+    background-color: red;
+}
+
+.btn-voltar:hover {
+    background-color: green;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
